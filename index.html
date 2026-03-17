@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中一全方位學習日</title>
+  <style>
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .loader {
+      border: 4px solid rgba(255,255,255,0.1);
+      border-top-color: #bc002d;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .info {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin-top: 20px;
+    }
+    .manual-link {
+      margin-top: 20px;
+      opacity: 0.7;
+    }
+    .manual-link a {
+      color: #bc002d;
+      text-decoration: underline;
+    }
+  </style>
+  <meta http-equiv="refresh" content="3;url=https://ai-lish.github.io/lsc-ole-s1-2026/">
+</head>
+<body>
+  <h1>📅 全方位學習日</h1>
+  <div class="loader"></div>
+  <p>正在跳轉到新網站...</p>
+  
+  <div class="info">
+    <p>如果你既瀏覽器沒有自動跳轉，</p>
+    <p style="margin-top: 10px;">請<a href="https://ai-lish.github.io/lsc-ole-s1-2026/">點擊這裡</a></p>
+  </div>
+  
+  <script>
+    // JavaScript fallback redirect
+    setTimeout(() => {
+      window.location.href = 'https://ai-lish.github.io/lsc-ole-s1-2026/';
+    }, 3000);
+  </script>
+</body>
+</html>
